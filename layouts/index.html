@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<h1>About Me</h1>
+<div style="width: 200px;">
+    {{ $profile := .Resources.GetMatch "profile-pic.jpg" }}
+    {{ $profile := $profile.Resize "x200" }}
+    <img src="{{ $profile.RelPermalink }}"/>
+    <span>Darius Sas</span>
+    <div>
+</div>
+<div>
+<p>
+    My profile page <a href="about/">(more)</a>
+</p>
+<br/>
+</div>
+{{ end }}
