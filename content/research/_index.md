@@ -12,6 +12,7 @@ draft: false
 - Architectural smells
 
 # 🎓 PhD Dissertation
+I successfully defended my PhD degree on 19 December 2022 at the [University of Groningen](https://www.rug.nl/), under the supervision of Prof. dr. ir. [Paris Avgeriou](https://www.cs.rug.nl/~paris/), head of the SEARCH (Software Engineering and Architecture) group at the [Bernoulli Institute](https://www.rug.nl/research/bernoulli/about/) for Mathematics, Computer Science, and Artificial Intelligence. 
 - You can read my PhD Dissertation [here](https://doi.org/10.33612/diss.249298785). Or download the PDF from [here](thesis/dissertation.pdf).
 - Check out also the [cover](thesis/cover.png), drawn by my dear friend [Yuri Palazzo](https://www.linkedin.com/in/yuri-palazzo-18a094118/).
 
