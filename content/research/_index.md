@@ -12,7 +12,7 @@ draft: false
 - Architectural smells
 
 # 🎓 PhD Dissertation
-- You check out my PhD Dissertation [here](https://doi.org/10.33612/diss.249298785). Or download the PDF from [here](thesis/dissertation.pdf).
+- You can read my PhD Dissertation [here](https://doi.org/10.33612/diss.249298785). Or download the PDF from [here](thesis/dissertation.pdf).
 - Check out also the [cover](thesis/cover.png), drawn by my dear friend [Yuri Palazzo](https://www.linkedin.com/in/yuri-palazzo-18a094118/).
 
 # 📜 Publications
