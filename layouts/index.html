@@ -1,19 +1,26 @@
 {{ define "main" }}
 
-<h1>About Me</h1>
-<div style="width: 200px;">
+<h1>I'm Darius Sas...</h1>
+<div style="display: flex;">
+<div style="display: inline-block; width: 450px;">
     {{ $profile := .Resources.GetMatch "profile-pic.jpg" }}
-    {{ $profile := $profile.Resize "x200" }}
+    {{ $profile := $profile.Resize "x450" }}
     <img src="{{ $profile.RelPermalink }}" />
-    <span>Darius Sas</span>
-    <div>
-        
-    </div>
-    <div>
-        <p>
-            My profile page <a href="about/">(more)</a>
-        </p>
-        <br />
-    </div>
+</div>
+<div style="margin-left: 30px; display: inline; width: 100%;">
+    <h1>About me</h1>
+    I'm an aspiring startupper who dreams of achieving the impossible: developing the best <a href="https://martinfowler.com/bliki/TechnicalDebt.html">technical debt</a> management tool.
+    After getting my PhD, I abandoned the light side of the force (i.e. academia) to join the dark side (i.e. industry) in the neverending battle against Technical Debt.
+    <br><br>
+    In my spare time I enjoy traveling, exploring nature, hiking, running, and leaving side projects unfinished.
+    <h1>Contacts and socials</h1>
+    Find me on...
+    <ul>
+        <li><a href="https://www.linkedin.com/in/darius-sas/">LinkedIn</a></li>
+        <li><a href="https://twitter.com/darius_fenn">Twitter</a></li>
+        <li><a href="https://github.com/darius-sas">GitHub</a></li>
+        <li><a href="https://dblp.org/pid/229/9284.html">DBLP</a></li>
+    </ul>
+</div>
 </div>
 {{ end }}
