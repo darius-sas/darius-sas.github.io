@@ -13,16 +13,16 @@ googleAnalytics = 'G-RZ06SEST8Z'
   animateStyle = "animated zoomIn fast" 
 
   [[params.navlinks]]
-  name = "curriculum/"
-  url = "curriculum/"
-
-  [[params.navlinks]]
   name = "research/"
   url = "research/"
   
   [[params.navlinks]]
   name = "personal/"
   url = "personal/"
+
+  [[params.navlinks]]
+  name = "curriculum/"
+  url = "curriculum/"
 
   [[params.navlinks]]
   name = "posts/"
