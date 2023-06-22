@@ -18,7 +18,7 @@ I successfully defended my PhD degree on 19 December 2022 at the [University of 
 
 # 📜 Publications
 ## 2023
-- **[Under review]** Sas, D., & Avgeriou, P. (2023). An architectural technical debt index based on machine learning and architectural smells. arXiv preprint https://arxiv.org/abs/2301.06341
+- **[Accepted @ TSE]** Sas, D., & Avgeriou, P. (2023). An architectural technical debt index based on machine learning and architectural smells. Official TSE preprint https://doi.org/10.1109/TSE.2023.3286179
 ## 2022
 - [[PDF](papers/2022_ese.pdf)] Sas, D., Avgeriou, P., &#38; Uyumaz, U. (2022). On the evolution and impact of architectural smells — an industrial case study. 27(86). https://doi.org/10.1007/s10664-022-10132-7
 
