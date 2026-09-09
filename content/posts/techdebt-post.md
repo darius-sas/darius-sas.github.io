@@ -1,27 +1,37 @@
 # Technical debt crisis -- Why the economics of technical debt work against it
 //todo need to write a catchy intro paragraph introducing my main thesis: technical debt can never be solved as a problem because it is not perceived as such by companies.
+// Let's take the example of bugs, companies are forced to solve bugs because it impacts the revenue streams. Systems, practices, tools have all been hypothesized, studied, implemented and used to help software teams manage bugs around the world.
+//Technical debt is strikingly similar to software bugs, if not two face of the same coin. If there is a lot of technical debt, there are a lot of bugs, if there are a lot of bugs, there's a lot of technical debt (it would help to have a reference here) making those bugs easier to appear.
 
 ## How we got here
-//The software engineering approach to a problem is to first recognize it, then study it, then measure its impact, then design a solution, and then, finally, measure the quality of the solution by how much it's reducing the original problem.
-//By repeating this process, sofware engineering, as a community, has produced the knowledge and tooling for unwitting engineers to write, review, package, and ship software seamlessly, without caring to solve again problems their predecessors had already solved.
-//The scale of modern software and the frictionless process to produce it are the result of these advancements.
-In the short lifespan of its existence, the software engineering practice, has gone from punchole cards containing small programs that would take hours if not days to write the most simple programs to producing the tooling (such as compilers and orchestrators) and practices (such as agile) allowing teams around the globe to coordinate, build applications of millions of lines of code and serve them to billions of users. All seamlessly and concurrently.
+In the short lifespan of its existence, the software engineering practice, has gone from punchole cards containing small programs that would take hours, if not days, to write the most simple programs to producing the tooling (such as compilers and orchestrators) and practices (such as agile) that allows teams around the globe to coordinate and build applications of millions of lines of code and serve them to billions of users.
+All seamlessly and concurrently.
 
-That is an incredible feat. 
-However, all of this did not happen without bumps in the road.
-At some point during this software (r)evolution, we encountered a peculiar problem that, to this day, it is still tormenting many software engineers: **technical debt**.
+While this is an extremely impressive feat, all of it did not happen without encountering a few bumps along the road.
+The most peculiar bump that, to this day, it's still tormenting many software engineers is **technical debt**.
+At least in my opinion.
 
-Contrary to other software engineering problems, technical debt has never been solved, despite having received a lot of attention throughout the years: frameworks, metrics, tools, blog posts, methodologies, and a plenty of academic research endeavors.
-Alas, nothing really sticked on the long term.
+Technical debt is the lazyness of one engineer that becomes the bane of another -- with the catch that it might be the same engineer.
+Formally speaking, technical debt represents design or implementation constructs that are expedient in the short term but create a technical context making future changes more costly or impossible (cite Dagstuhl).
 
-The reasons it has never been solved could be many, including that tech debt might actually be too big of a problem to actually tackle in the time we had since the term was coined in 1992 by Ward Cunningham (that's 34 years ago and counting).
+Contrary to other software engineering problems, like transforming near-english text into an optimized string of 0s and 1s capable of making a rock think, technical debt has never been really solved.
+And not by lack of attempts at tackling the problem, a lot of resources have been spent throughout the years to produce frameworks, metrics, tools, blog posts, methodologies, and intricated academic theories.
+Alas, nothing really sticked on the long term. Because nothing actually solved the problem.
+As software engineers, we have to admit this to ourselves if we want to go somewhere from here.
 
-However, I do not think we can say that before we admit to ourselves that there never was a real interest in solving it.
-And we can deduce this by having a look at how projects come to life and evolve to become critical business assets.
+//(MOVE SOMEWHERE ELSE) The reasons could be many, including that technical debt might actually be too big of a problem to actually tackle in the time we had since the term was coined in 1992 by Ward Cunningham (that's 34 years ago and counting).
 
-New software projects have the problem that requirements are not yet fully clear or well-defined (or possibly, even non-existant!).
-This means that a implementing correct, technical debt free and change-resilient solution is impossible.
-In this case managing technical debt means essentially just ignore it and iterate as many times as possible to achieve a product-market fit.
+//However, I do not think we can say that before we admit to ourselves that there never was a real interest in solving it.
+//And we can deduce this by having a look at how projects come to life and evolve to become critical business assets.
+
+# The causes
+To understand *how* this has come to be the case, we have to start looking at the reason *why* we produce software.
+
+Let's take the example of *new* software projects, where, in most cases, requirements are not yet fully clear to the client, or possibly, even not yet existant.
+This means that implementing a correct and complete solution is impossible. 
+The best one can do, and hope for, is an approximation that will require continuous adjustments as the requirements continuously change.
+
+In this case managing technical debt means essentially just ignore it and iterate as many times as possible to achieve a product-market fit, a point where requirements will change slightly less.
 Until you don't have one, any new line of code has a maximum lifetime of a few months at most, which makes any kind of technical debt repayment activities counterproductive.
 The only need to repay it comes from frustrated, individual programmers resulting in localized solutions that bring limited or short-termed advantages.
 When the debt is no longer sustainable, the best solution is to rebuild the project from scratch, component by component and possibly migrating to a more resilient, scalable architecture.
