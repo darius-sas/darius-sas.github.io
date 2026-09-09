@@ -1,11 +1,15 @@
 # Technical debt crisis -- Why the economics of technical debt work against it
+//todo need to write a catchy intro paragraph introducing my main thesis: technical debt can never be solved as a problem because it is not perceived as such by companies.
 
 ## How we got here
-The software engineering approach to a problem is to first recognize it, then study it, then measure its impact, then design a solution, and then, finally, measure the quality of the solution by how much it's reducing the original problem.
-By repeating this process, sofware engineering, as a community, has produced the knowledge and tooling for unwitting engineers to write, review, package, and ship software seamlessly, without caring to solve again problems their predecessors had already solved.
-The scale of modern software and the frictionless process to produce it are the result of these advancements.
+//The software engineering approach to a problem is to first recognize it, then study it, then measure its impact, then design a solution, and then, finally, measure the quality of the solution by how much it's reducing the original problem.
+//By repeating this process, sofware engineering, as a community, has produced the knowledge and tooling for unwitting engineers to write, review, package, and ship software seamlessly, without caring to solve again problems their predecessors had already solved.
+//The scale of modern software and the frictionless process to produce it are the result of these advancements.
+In the short lifespan of its existence, the software engineering practice, has gone from punchole cards containing small programs that would take hours if not days to write the most simple programs to producing the tooling (such as compilers and orchestrators) and practices (such as agile) allowing teams around the globe to coordinate, build applications of millions of lines of code and serve them to billions of users. All seamlessly and concurrently.
 
-Curiosly, at some point during this software (re)volution, we identified a peculiar e problem that, to this day, is still tormenting many software engineers: **technical debt**.
+That is an incredible feat. 
+However, all of this did not happen without bumps in the road.
+At some point during this software (r)evolution, we encountered a peculiar problem that, to this day, it is still tormenting many software engineers: **technical debt**.
 
 Contrary to other software engineering problems, technical debt has never been solved, despite having received a lot of attention throughout the years: frameworks, metrics, tools, blog posts, methodologies, and a plenty of academic research endeavors.
 Alas, nothing really sticked on the long term.
